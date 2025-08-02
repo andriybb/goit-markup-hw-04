@@ -219,8 +219,8 @@ h1 {
   margin-bottom: 8px;
 }
 .icon-box svg {
-  width: 64px;
-  height: 64px;
+  width: 64;
+  height: 64;
   margin: 24px 100px;
 }
 
@@ -307,12 +307,13 @@ h1 {
 .team-social-media-list-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 svg.team-icon-social {
-  width: 16px;
-  height: 16px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 16;
+  height: 16;
+
   fill: #f4f4fd;
 }
 
@@ -372,9 +373,8 @@ svg.team-icon-social {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding: 40px 32px 0;
+  padding: 40px 32px;
   background-color: #4d5ae5;
-  color: #fff;
   position: absolute;
   top: 0;
   left: 0;
@@ -455,8 +455,8 @@ footer .container {
 
 .social-icon-footer svg {
   fill: #f4f4fd;
-  width: 24px;
-  height: 24px;
+  width: 24;
+  height: 24;
 }
 
 .media {
