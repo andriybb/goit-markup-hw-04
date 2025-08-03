@@ -145,7 +145,7 @@ h1 {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("/images/people-office.jpg");
+    url("../images/people-office.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -248,6 +248,7 @@ h1 {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 /* team  */
@@ -299,7 +300,6 @@ h1 {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-top: 8px;
 }
 
 .team-social-media-list-item {
@@ -423,9 +423,7 @@ footer .container {
   align-items: baseline;
   gap: 120px;
 }
-.footer-list {
-  margin-right: 120px;
-}
+
 .footer-text {
   color: #f4f4fd;
   max-width: 264px;
